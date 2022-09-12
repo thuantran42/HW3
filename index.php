@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-
+ <a class="btn btn-primary" href="#" role="button">Button</a>
 
 </head>
 <body>
