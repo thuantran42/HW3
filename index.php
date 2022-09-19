@@ -18,7 +18,7 @@
     <?php
 $servername = "localhost";
 $username = "traeoucr_homework3User";
-$password = "tt1024332";
+$password = "websiteanddatabaseinteraction";
 $dbname = "traeoucr_homework3";
 
 // Create connection
