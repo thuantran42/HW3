@@ -15,6 +15,7 @@
     </tr>
   </thead>
   <tbody>
+    
     <?php
 $servername = "localhost";
 $username = "traeoucr_homework3User";
@@ -35,10 +36,12 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
+    
   <tr>
     <td><?=$row["instructor_id"]?></td>
     <td><?=$row["instructor_name"]?></td>
   </tr>
+    
 <?php
   }
 } else {
