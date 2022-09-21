@@ -12,6 +12,7 @@
     <tr>
       <th>ID</th>
       <th>Name</th>
+      <th>Age</th>
     </tr>
   </thead>
   <tbody>
