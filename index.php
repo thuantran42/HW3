@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Data Mining</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
@@ -16,7 +16,7 @@
     </tr>
   </thead>
   <tbody>
-    
+
     <?php
 $servername = "localhost";
 $username = "traeoucr_homework3User";
@@ -53,7 +53,7 @@ $conn->close();
 ?>
   </tbody>
     </table>
-    <h1>Hello, world!</h1>
+    <h1>Commencing data mining!</h1>
     <form action="instructor-section.php" method="get">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
