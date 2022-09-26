@@ -16,6 +16,7 @@
       <th>Number</th>
       <th>Section</th>
       <th>Instructor</th>
+      <th>Age</th>
     </tr>
   </thead>
   <tbody>
@@ -53,6 +54,7 @@ if ($result->num_rows > 0) {
     <td><?=$row["number"]?></td>
     <td><?=$row["section_number"]?></td>
     <td><?=$row["instructor_name"]?></td>
+    <td><?=$row["instructor_age"]?></td>
   </tr>
 <?php
   }
