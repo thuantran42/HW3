@@ -34,7 +34,7 @@ if ($conn->connect_error) {
 }
 $cid = $_POST['id'];
 //echo $iid;
-$sql = "select section_id, section_number, i.instructor_name, i.instructor.age, c.prefix, c.number 
+$sql = "select section_id, section_number, i.instructor_name, i.instructor_age, c.prefix, c.number 
 from section s 
 join instructor i 
 on i.instructor_id = s.instructor_id 
