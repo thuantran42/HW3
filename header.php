@@ -28,8 +28,13 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="instructors.php">Instructor Information</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="instructor-section.php">Another action</a></li>
+            <li><a class="dropdown-item" href="instructor-cards.php">Instructor Information</a></li>
+            <li><a class="dropdown-item" href="sections.php">Instructor Information</a></li>
+            <li><a class="dropdown-item" href="courses.php">Instructor Information</a></li>
+            <li><a class="dropdown-item" href="course-section.php">Instructor Information</a></li>
+            
+            
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
