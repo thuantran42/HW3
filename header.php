@@ -27,7 +27,7 @@
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="http://hw3.trae.oucreate.com/instructors.php" href="#">Instructor Information</a></li>
+            <li><a class="instructors.php" href="instructors.php">Instructor Information</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
