@@ -28,13 +28,11 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="instructors.php">Instructors</a></li>
-            <li><a class="dropdown-item" href="instructor-section.php">Instructor's sections</a></li>
+           
             <li><a class="dropdown-item" href="instructor-cards.php">Instructor info cards</a></li>
             <li><a class="dropdown-item" href="sections.php">Sections </a></li>
             <li><a class="dropdown-item" href="courses.php">Courses</a></li>
             <li><a class="dropdown-item" href="course-section.php">Course Sections</a></li>
-            
-            
             
           </ul>
         </li>
