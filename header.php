@@ -35,7 +35,7 @@
             <li><a class="dropdown-item" href="course-section.php">Course Sections</a></li>
             
             
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            
           </ul>
         </li>
         <li class="nav-item">
