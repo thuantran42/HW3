@@ -35,12 +35,9 @@ if ($result->num_rows > 0) {
       <h5 class="card-title"><?=$row["student_name"]?></h5>
       <p class="card-text"><ul>
 <?php
-    $section_sql = "select drink_id, drink_name 
-                    from Drink;
-    $section_result = $conn->query($section_sql);
-    
-    while($section_row = $section_result->fetch_assoc()) {
-      echo "<li>" . $section_row["drink_name"] . "</li>";
+    $sql = "SELECT drink_id, drink_name 
+        from Drink";
+$result = $conn->query($sql);
     }
 ?>
       </ul></p>
