@@ -32,6 +32,7 @@
             <li><a class="dropdown-item" href="instructor-cards.php">Instructor info cards</a></li>
             <li><a class="dropdown-item" href="sections.php">Sections </a></li>
             <li><a class="dropdown-item" href="courses.php">Courses</a></li>
+            <li><a class="dropdown-item" href="student-drink.php">Students & Drinks</a></li>
         
             
           </ul>
