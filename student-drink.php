@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
       <h5 class="card-title"><?=$row["student_name"]?></h5>
       <p class="card-text"><ul>
 <?php
-    $section_sql = "select c.consumerReview 
+    $section_sql = "select c.consumerReview, drink_name 
     from consumption c 
     join Student s
     on s.student_id = c.student_id 
@@ -45,6 +45,7 @@ if ($result->num_rows > 0) {
     
     while($section_row = $section_result->fetch_assoc()) {
       echo "<li>" . $section_row["consumerReview"] . "</li>";
+      echo "<li>" . $section_row["drink_name"] . "</li>";
     }
 ?>
       </ul></p>
